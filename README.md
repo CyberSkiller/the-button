@@ -38,3 +38,7 @@ Masz dwie możliwości:
 
 🔹 4. Uruchom serwer
 `python manage.py runserver`
+
+### Bezpieczństwo
+
+Sekcja mająca na celu sprawdzenie zabezpieczeń dostępu do repozytorium.
