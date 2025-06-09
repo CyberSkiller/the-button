@@ -38,3 +38,7 @@ Masz dwie możliwości:
 
 🔹 4. Uruchom serwer
 `python manage.py runserver`
+
+## Bezpieczeństwo
+
+Sekcja mająca na celu sprawdzenie reguł ochrony gałęzi.
