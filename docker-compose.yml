@@ -1,8 +1,10 @@
-services: 
+version: '3.8'
+
+services:
   django-web:
-   build: .
-   container_name: the_button_app
-   ports:
-     - "8000:8000"
-   environment:
-     DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+    build: .
+    container_name: the_button_app
+    ports:
+      - "8000:8000"
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
