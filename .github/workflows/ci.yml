@@ -32,7 +32,7 @@ jobs:
     - name: Run tests
       run: |
         python manage.py test
-build-and-push:
+    build-and-push:
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -80,3 +80,6 @@ build-and-push:
         # Publikuj obraz
         docker push ${{ secrets.DOCKER_USERNAME }}/the-button:${SHORT_SHA}
         docker push ${{ secrets.DOCKER_USERNAME }}/the-button:latest
+
+
+
