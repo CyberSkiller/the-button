@@ -32,7 +32,6 @@ jobs:
     - name: Run tests
       run: |
         python manage.py test
-
         build-and-push:
     needs: test
     runs-on: ubuntu-latest
