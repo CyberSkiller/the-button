@@ -1,3 +1,5 @@
+
+
 # 🟢 The Button
 
 Prosta aplikacja w Django z jednym przyciskiem `Ping`, który wysyła zapytanie do backendu i wyświetla odpowiedź w przeglądarce.
@@ -37,4 +39,5 @@ Masz dwie możliwości:
 `pip install -r requirements.txt`
 
 🔹 4. Uruchom serwer
-`python manage.py runserver`
+`python manage.py runserver
+Zmiana w pliku README.
