@@ -39,4 +39,4 @@ Masz dwie możliwości:
 🔹 4. Uruchom serwer
 `python manage.py runserver`
 
-## Bezpieczeństwo dudu dada
+## Bezpieczeństwo tak
