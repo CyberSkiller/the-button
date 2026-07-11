@@ -38,3 +38,7 @@ Masz dwie możliwości:
 
 🔹 4. Uruchom serwer
 `python manage.py runserver`
+
+## Bezpieczeństwo
+
+Ten projekt wykorzystuje GitHub Actions do automatycznego budowania i testowania obrazu Docker przy każdym pushu do gałęzi `master`. Sekrety (dane logowania do Docker Hub) są przechowywane w GitHub Secrets i nie są widoczne w kodzie repozytorium. Gałąź `master` jest chroniona regułami branch protection – wymagany jest Pull Request z co najmniej jedną recenzją przed scaleniem zmian.
