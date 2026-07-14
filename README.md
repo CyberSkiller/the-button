@@ -38,3 +38,6 @@ Masz dwie możliwości:
 
 🔹 4. Uruchom serwer
 `python manage.py runserver`
+
+## Bezpieczeństwo
+Ta gałąź jest w pełni chroniona.
